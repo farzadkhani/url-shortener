@@ -18,8 +18,8 @@ this project is base on python 3.8
 5. go to core directory
 6. create local_settings.py file
 7. in local_settings.py file define:
-	BASE_DIR
-	SECRET_KEY
-	DEBUG
-	ALLOWED_HOSTS
+	1. BASE_DIR
+	2. SECRET_KEY
+	3. DEBUG
+	4. ALLOWED_HOSTS
 8. run project in src directory with this command: python manage.py runserver
