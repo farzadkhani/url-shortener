@@ -21,7 +21,7 @@ def redirec_url_from_shortened_link_view(request, short_code):
 
             return HttpResponseRedirect(model_instance.url)
     except RedirectModel.DoesNotExist:
-        raise Http404("لینک خراب است")
+        raise Http404()
 
 
 class CreateShortenedLinkCreateView(CreateView):

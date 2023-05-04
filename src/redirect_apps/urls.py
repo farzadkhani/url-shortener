@@ -4,12 +4,6 @@ from .views import CreateShortenedLinkCreateView
 
 
 urlpatterns = [
-    # url for create new shortened link
-    path(
-        "create_shortened_link/",
-        CreateShortenedLinkCreateView.as_view(),
-        name="create-shortened-link",
-    ),
     # url for create new shortened link and have short_code in query string
     path(
         "create_shortened_link/<str:short_code>/",
